@@ -77,27 +77,27 @@
     border-radius: 5px;
 }
 .first-in{
-    width: 450px;
+    width: 400px;
     height: 32px;
     border: none;
     padding-top: 5px;
     padding-left: 20px;
 }
 .up{
-    width: 150px;
-    height: 35px;
     border: none;
-    background-color: black;
     color: white;
+    background-color: black;
+    width: 60px;
     border-radius: 5px;
 }
 .hh{
-    width: 75vh;
+    width: 65vh;
     height: 35px;
     border: solid 1px gray;
     display: flex;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    display: flex;
 }
 .two-in{
     display: flex;
@@ -125,49 +125,49 @@ h4{
     color: rgb(196, 193, 193);
     padding-left: 70px;
 }
-.two-in{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-    padding-top: 20px;
+.abd img{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
 }
-.pay{
-    align-items: center;
+.abd{
     display: flex;
-    flex-direction: column;
-    margin-top: 20px;
+    width: 150px;
+    height: 35px;
+    background-color: black;
+    border-radius: 5px;
+}
 
-}
 @media screen and (max-width: 950px){
     .second-div{
-        width: 55vh;
+        width: 45vh;
         padding-top: 20px;
-        margin-top: 50px;
+        margin-top: 30px;
         height: 60vh;
         display: flex;
         text-align: left;
     }
-    .fi{
-        gap: 70px;
-    }
     .ri{
-        gap: 140px;
+        gap: 80px;
+    }
+    .fi{
+        display: flex;
+        gap: 12px;
     }
     .hh{
-        width: 55vh;
+        width: 40vh;
     }
     .first-in{
-        width: 50vh;
+        width:35vh;
     }
     .second-in{
-        width: 55vh;
+        width: 40vh;
     }
     .pay button{
-        width: 45vh;
+        width: 35vh;
     }
     .first-div{
-        gap: 30px;
+        gap: 20px;
     }
     .r-div{
         padding-top: 50px;
@@ -175,15 +175,29 @@ h4{
     .two-in{
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 10px;
         align-items: center;
-        padding-top: 20px;
+        padding-top: 10px;
     }
     .pay{
         align-items: center;
         display: flex;
         flex-direction: column;
-        margin-top: 20px;
-
+    }
+    .first-in{
+        /* width: 200px; */
+        align-items: center;
+    }
+    .hh{
+        width: 300px;
+    }
+    .abd{
+        width: 70px;
+    }
+    .second-in{
+        width: 300px;
+    }
+    .pay{
+        width: 250px;
     }
 }
